@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+   <!--  <style>
+        .multi-bg-example {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/Karu_LP_Laptop.png), url(img/Karu_Quad_Keyboard.jpg), linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position:
+    bottom right,
+    left,
+    right;
+}
+
+    </style> -->
+  <!--   <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services
+            <ul>
+                <li>Decoration</li>
+                <li>customer,care</li>
+            </ul>
+        </li>
+        <li>contact
+            <ul>
+                <li>Map</li>
+                <li>Location</li>
+            </ul>
+        </li>
+    </ul> -->
+
+   
+<button type="button" onclick="myFunc()">click me</button>
+
+    <script>
+   
+      /*   if (confirm(“Are you sure?”)) {
+
+var a = document.getElementById(“go”);
+
+a.href = “./page2.html”;
+
+} */
+
+function myFunc() {
+    let ask = window.confirm("Are you An Admin?");
+    if (ask) {
+        window.alert("Ok! verify!!");
+
+        window.location.href = "pro.css";
+
+    }
+}
+      
+
+/* 
+   var conf=confirm("Are you Admin!!");
+   if (conf==TRUE) {
+    location.replace("https://www.w3schools.com")
+   }
+   else{
+    window.location.href = "pro.css";
+   } 
+      }
+ */
+    </script>
+
+</body>
+</html>

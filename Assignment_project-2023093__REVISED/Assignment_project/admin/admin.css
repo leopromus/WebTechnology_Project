@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@100&family=Sacramento&display=swap");
+
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0px;
+}
+marquee{
+  position: relative;
+  top: -100px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+ 
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: row;
+}
+.logo img{
+  width: 90px;
+  height: 90px;
+}
+.navbar {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0px;
+}
+ul li {
+  float: left;
+  list-style: none;
+  width: 150px;
+  height: 25px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  padding: 5px 0;
+}
+ul li:hover {
+  background-color: gray;
+}
+
+ul li ul li {
+  display: none;
+  width: 150px;
+  height: 70px;
+  margin: 0 -20px;
+  float: right;
+}
+ul li ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+  background: linear-gradient(to right, skyblue, blueviolet);
+  display: block;
+}
+
+ul li:hover ul li ul li {
+  display: none;
+}
+ul li:hover ul li:hover ul li {
+  color: white;
+  display: block;
+  overflow: hidden;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.Home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: -102px;
+  right: 0px;
+  overflow: hidden;
+ 
+}
+.login_session {
+  border-radius: 1px;
+  background: linear-gradient(to right, skyblue, blueviolet);
+  padding: 10px;
+}
+.login_session button {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar{
+  position: relative;
+    margin-right: 19px;
+}
+.login_session{
+    position: absolute;
+   top: 90px;
+   left: 22%; 
+    text-align: center;
+     width: 400px;
+    height: 300px;
+}
+.login_session form{
+    margin: 50px 0;
+}
+
+.login_session form input{
+    margin: 10px 0;
+    border: 2px ridge black;
+    border-radius: 5px;
+    padding: 5px;
+}
+input[type="submit"]{
+
+}
+#submit{
+    border-radius: 5px;
+    padding: 5px;
+}
