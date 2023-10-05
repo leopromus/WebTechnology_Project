@@ -278,8 +278,8 @@ ul li:hover ul li:hover ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 1px;
-background-color: black;
+  border-radius: 1px;/* 
+background-color: black; */
  padding: 10px;
   margin: 0 5%;
   color: white;
@@ -301,8 +301,8 @@ background-color: black;
   text-align: center;
   font-weight: bold;
 }
-.contact {
-  background-color: rgb(207, 200, 200);
+.contact {/* 
+  background-color: rgb(207, 200, 200); */
   opacity: 0.9;
   margin: 40px 0;
 }
@@ -545,4 +545,28 @@ padding: 0px 12px;
   flex-direction: column;
  
 }
+
+#message_me form fieldset{
+  min-width: 10px;
+}
+#message_me form {
+  display: flex;
+  flex-direction: column;
+ /*  justify-content: space-between;
+  align-items: center; */
+  width: 5px;
+  height: 10px;
+}
+#message_me form input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  padding: 10px 0;
+  padding-left: 10px;
+  padding-right: 250px;
+  margin: 5px 0px;
+}
+
 }
